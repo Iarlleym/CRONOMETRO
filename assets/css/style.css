@@ -1,0 +1,111 @@
+
+/*ESTILO GERAL DO SITE*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+background-color: black;
+height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*ESTILO DO HEADER*/
+
+header {
+  padding: 0 4%;
+}
+
+header.menu-fixed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow:  0 0 10px 3px #ffffff2d; /*Cria a sombra de destaque entre as paginas*/
+}
+
+.flex {
+  display: flex;
+}
+
+.menu-fixed .interface{
+  color: #cf5006;
+}
+
+button.botao1 {
+  background-color: #cf5006;
+  padding: 10PX;
+  border-radius: 10px;
+}
+
+header div.btn-contato a button{
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+header .btn-contato button:hover {
+  box-shadow: 0 0 40px #D2691E; 
+  transform: scale(1.06);
+  transition: all 0.2s;
+}
+
+header input{
+  width: 100%;
+  background-color: #cf5006;
+  border: 0;
+  outline: 0;
+  padding: 12px;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+
+/*ESTILO DA SECTION*/
+.container {
+  max-width: 440px;
+  height: 300px;
+  margin: 50px auto;
+  background: #3d3d3d;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+h1.relogio {
+  color: #cf5006;
+  width: 600px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 80px;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+div.btn-relogio{
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+div.btn-relogio button {
+  background-color: #cf5006;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+section.container h1.pausado {
+  color: red;
+}
